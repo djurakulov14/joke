@@ -21,6 +21,8 @@ form.onsubmit = (e) => {
 
     if(im.includes('sardor') || im.includes('сардор')){
         place.innerHTML = `${arr.name} is ZVER💪🏾`
+    } else if(im.includes('aminjon') || im.includes('аминжон')){
+        place.innerHTML = `${arr.name} is LESSAK👅`
     } else{
         place.innerHTML = `${arr.name[0].toUpperCase()}${arr.name.slice(1)} is GAY🏳️‍🌈`
     }
