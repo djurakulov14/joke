@@ -1,5 +1,5 @@
 let form = document.forms.joke
-let place = document.querySelector('h2')
+let place = document.querySelector('h3')
 
 form.onsubmit = (e) => {
     e.preventDefault()
