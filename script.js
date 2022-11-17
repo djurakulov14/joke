@@ -19,7 +19,7 @@ form.onsubmit = (e) => {
     let im = arr.name.toLowerCase()
     console.log(im);
 
-    if(im == 'sardor' || im == 'сардор'){
+    if(im.includes('sardor')) || im.includes('сардор'){
         place.innerHTML = `${arr.name} is ZVER💪🏾`
     } else{
         place.innerHTML = `${arr.name[0].toUpperCase()}${arr.name.slice(1)} is GAY🏳️‍🌈`
