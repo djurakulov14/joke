@@ -20,11 +20,9 @@ form.onsubmit = (e) => {
     console.log(im);
 
     if(im.includes('sardor') || im.includes('сардор')){
-        place.innerHTML = `${arr.name} is ZVER💪🏾`
-    } else if(im.includes('aminjon') || im.includes('аминжон')){
-        place.innerHTML = `${arr.name} is LESSAK👅`
+        place.innerHTML = `${arr.name} is THE BEST💪🏾`
     } else if(im.includes('djurakulov') || im.includes('джуракулов')){
-        place.innerHTML = `${arr.name} is ZVER💪🏾`
+        place.innerHTML = `${arr.name} is THE BEST💪🏾`
     } else{
         place.innerHTML = `${arr.name[0].toUpperCase()}${arr.name.slice(1)} is GAY🏳️‍🌈`
     }
